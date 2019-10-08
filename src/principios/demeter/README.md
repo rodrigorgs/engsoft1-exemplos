@@ -11,6 +11,4 @@ Efetivamente o entregador de pizza tem mais informação do que deveria (o que i
 Solução: implementar método `Cliente.paga(quantia)`; alterar `EntregadorDePizza.entrega(cliente)` para usar esse método. 
 
 
-<!--
-https://www2.ccs.neu.edu/research/demeter/demeter-method/LawOfDemeter/paper-boy/demeter.pdf
--->
+Baseado em [The Paperboy, The Wallet, and The Law Of Demeter](https://www2.ccs.neu.edu/research/demeter/demeter-method/LawOfDemeter/paper-boy/demeter.pdf)

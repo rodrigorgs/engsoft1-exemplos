@@ -10,7 +10,7 @@ public class CalculadoraDeArea {
 				total += retangulo.getLargura() * retangulo.getAltura();
 			} else if (forma instanceof Circulo) {
 				Circulo circulo = (Circulo)forma;
-				total += 2 * Math.PI * circulo.getRaio();
+				total += Math.PI * circulo.getRaio() * circulo.getRaio();
 			}
 		}
 		
