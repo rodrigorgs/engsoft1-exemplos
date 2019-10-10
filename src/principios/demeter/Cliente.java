@@ -10,4 +10,12 @@ public class Cliente {
 	public Carteira getCarteira() {
 		return carteira;
 	}
+	
+	public boolean podePagar(double valor) {
+		return carteira.getSaldo() >= valor;
+	}
+	
+	public void pagar(double valor) {
+		carteira.retirarDinheiro(valor);
+	}
 }

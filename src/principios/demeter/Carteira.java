@@ -13,10 +13,10 @@ public class Carteira {
 	}
 	
 	public void adicionarDinheiro(double qtd) {
-		saldo -= qtd;
+		saldo += qtd;
 	}
 
 	public void retirarDinheiro(double qtd) {
-		saldo += qtd;
+		saldo -= qtd;
 	}
 }
