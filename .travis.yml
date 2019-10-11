@@ -5,4 +5,5 @@ addons:
     token:
       secure: "RyauLIrxtwtatsKBnMlk2KCBrOe8NyZRf5XVv/oHAOZld5tNSM/ChXyagVLj7Q0FvM9Wro5+WLe/MHl6PG+7Bdi4KsUth2nKv78Qahn3tiJ/wiSA1tpZyNQZf2S5KRj5OvoTwRlg+aoGxzxJKUCUN6YO5YZfPQv5J0Wke9+sAMliK9OW9q7H1GB5x1wGN92fr8TZWPuyiSniFKf/Sf+oMVvec+F2fpTEUxss0H7PjdyWO5vInUpiUGwPQGuW1Jgd9pj68qWudYRNnMpqu8Y6LiUJCijp5IKcBUymkMFWBEAdwnMI6vdtGbb5qL8TOyDEulWgLwufCQ/lnYzdJuilI7aE8WP0Tl6A/HaK6cIMDfCUrZA89tP6m65x4syfO88BP2PQFMwNxy8rmgtgzHWa1F/Ng2ko5/eNeuXzIUHJGe3Z6tjQ+ywESRQyijWo/m3tc8vZTot9x3AJ00kBe0fvzY0zA3TsT7kZeTIyKaM+yfi3oW/xzffSlINN0cKXK6fW8J3y/27yUBCHMCbPFmOprXL+FQQSYhJm9SAz6Utuog2Y5+qEu4M6s4iwYi6zrHybD50BOrHp6ISGzQa6GTd4ZRI0FoIvZokXyDDnvpOCKpM1P/253EKO61oblOgtZsnuhTDljjEG1KNoXZcZzfZbLTuDMe6VBUghnhIZ7XOyy3U="
 script:
+  - cd src; find .. -name \*.java | xargs javac -cp .
   - sonar-scanner
